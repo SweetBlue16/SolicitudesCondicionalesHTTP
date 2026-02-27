@@ -1,0 +1,25 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+h1 {
+    color: #00796b;
+}
+button {
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#dataContainer {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #b2dfdb;
+    border-radius: 5px;
+    color: #004d40;
+}
