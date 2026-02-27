@@ -7,9 +7,16 @@
     <link rel="stylesheet" href="productStyles.css">
 </head>
 <body>
-    <h1>Last-Modified Demo</h1>
-    <button id="fetchData">Obtener datos de producto</button>
+    <h1>Last-Modified y ETag Demo</h1>
+    <button id="fetchData">Obtener datos de producto (GET)</button>
     <div id="dataContainer"></div>
+
+    <hr>
+    <h2>Actualizar Producto</h2>
+    <input type="number" id="newPrice" placeholder="Nuevo precio" style="padding: 10px;">
+    <button id="updateData">Actualizar Precio (PUT)</button>
+    <div id="updateStatus"></div>
+
     <script src="conditionalproduct.js"></script>
 </body>
 </body>
